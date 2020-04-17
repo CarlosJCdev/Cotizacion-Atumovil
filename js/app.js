@@ -86,10 +86,10 @@ Interfaz.prototype.mostrarResultado = function (seguro, total) {
     //Insertamos la info
     div.innerHTML= `
     <p class="header">Tu cotización es:</p>
-    <p>Marcar: ${marca}</p>
+    <p>Marca: ${marca}</p>
     <p>Año: ${seguro.anio}</p>
     <p>Tipo: ${seguro.tipo}</p>
-    <p<Total ${total}</p>`;
+    <p>Total: ${total}</p>`;
 
     //Agregamos el spinner en el form, cuando realizemos una cotización
     //Y definimos el tiempo el cual se mostrará.
